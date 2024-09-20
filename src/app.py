@@ -10,8 +10,6 @@ from datastructures import FamilyStructure
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 CORS(app)
-
-
 jackson_family = FamilyStructure("Jackson")  # Create the jackson family object
 
 
